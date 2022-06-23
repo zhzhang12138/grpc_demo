@@ -119,7 +119,7 @@ if __name__ == "__main__":
 ### 注意
 
 ```python
-# 生成的helloworld_pb2_grpc.py 因为引用了helloworld_pb2.py，包导入会有问题
+# 生成的RonService_pb2_grpc.py 因为引用了RonService_pb2.py，包导入会有问题
 # 需要修改第五行为
 from proto import RonService_pb2 as RonService__pb2
 ```

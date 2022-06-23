@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+// 包名
+package RonService;
+
+// 请求参数对象
+message SendSmsRequest {
+  string name = 1;
+}
+
+// 返回参数对象
+message SendSmsResponse {
+  string message = 1;
+}
+
+// 对外暴露的服务
+service RonService {
+  // 对外暴露的函数名，参数和返回值
+  rpc SendSms (SendSmsRequest) returns (SendSmsResponse) {};
+}

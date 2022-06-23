@@ -1,14 +1,3 @@
----
-title: 'Python使用grpc相互通信'
-tags:
-  - Grpc
-categories:
-  - Grpc
-date: 2022-04-12 14:30:00
-top_img: transparent
-cover: https://img2.baidu.com/it/u=3558077636,741039655&fm=253&fmt=auto&app=138&f=JPEG?w=866&h=500
----
-
 ## Protobuf 介绍
 
 Protobuf 是 Google 给出的一种通用的数据表示方式，通过 proto 文件定义的数据格式，可以一键式的生成 C++，Python，Java 等各种语言实现
